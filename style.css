@@ -1,0 +1,80 @@
+body{
+    margin: o;
+}
+h1{
+margin: auto;
+width: 150px;
+}
+.row{
+    width: 100%;
+    height: 100%;
+}
+section{ 
+    position: relative;
+    background-color: bisque;
+    box-sizing: border-box;
+    margin: 10px 20px ;
+    
+    padding: 3% 7% 0% ;
+
+    border: 1px black solid;
+  
+
+    }
+.title{
+    position: absolute;
+    right:0%;
+    top: 0%;
+    margin: -2px;
+    
+    text-transform: capitalize;
+    border: black 1px solid;
+    width: 30%;
+    text-align: center;
+}
+div{
+       
+    text-align: center;
+}
+
+#one{
+    background-color: chocolate;
+}
+#two{
+    background-color: rgb(131, 179, 221);
+}
+#three{
+    background-color: rgb(102, 202, 147);
+}
+@media (min-width:768px) and (max-width:991px){
+    
+    section{
+        display: inline-block;
+        width: 44%;
+       
+
+    }
+    section{
+        margin: 2%;
+        float: left;
+        padding: 3% 2% 0% ;
+
+    }
+    #last{
+        width: 92%;
+        margin: 2%;
+    }
+    
+}
+@media (min-width:992px){
+    section{
+        display: inline-block;
+        width: 30%;
+        margin: 1%;
+        padding: 1% 2% 0%;
+       
+
+    }
+ 
+
+}
